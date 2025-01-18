@@ -2,12 +2,19 @@
 
 # ABOUT
 
-combinepy is a cli for combining python files together into one file. Typically for submission to a AI or chatbot
+combine is a cli for combining python files together into one file. Typically for submission to a AI or chatbot
 
 
 # BUILDING
 
 ```pyinstaller --onefile main.py```
+
+# INSTALLING ON WINDOWS
+
+```
+python build.py
+
+```
 
 # RUNNING WITH PYTHON
 
@@ -23,3 +30,5 @@ combinepy is a cli for combining python files together into one file. Typically 
 - remove duplicate functions or classes 
 - organizes source
 - runs autopep8 on source
+
+# 
